@@ -1,0 +1,97 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: #0f172a;
+  color: #e5e7eb;
+}
+
+/* LAYOUT */
+.container {
+  max-width: 800px;
+  margin: auto;
+  padding: 20px;
+}
+
+/* CARD DESIGN */
+.card {
+  background: #1e293b;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.3);
+  transition: 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+/* HEADER */
+.header {
+  text-align: center;
+}
+
+.logo {
+  height: 100px;
+  margin-bottom: 10px;
+}
+
+/* TEXT */
+h1 {
+  margin: 10px 0 5px;
+}
+
+h2 {
+  margin-bottom: 10px;
+  border-left: 4px solid #3b82f6;
+  padding-left: 10px;
+}
+
+/* TABLE */
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  padding: 10px;
+  text-align: center;
+}
+
+th {
+  background: #3b82f6;
+}
+
+tr:nth-child(even) {
+  background: #334155;
+}
+
+/* TAGS (HOBBIES) */
+.tags span {
+  display: inline-block;
+  background: #3b82f6;
+  padding: 6px 12px;
+  border-radius: 20px;
+  margin: 5px;
+  font-size: 14px;
+}
+
+/* BUTTON */
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background: #3b82f6;
+  color: white;
+  text-decoration: none;
+  border-radius: 8px;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background: #2563eb;
+}
+
+/* CENTER */
+.center {
+  text-align: center;
+}
