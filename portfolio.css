@@ -72,3 +72,28 @@ tr:nth-child(even) {
 .center {
   text-align: center;
 }
+.footer {
+  background: #020617;
+  text-align: center;
+  padding: 30px 20px;
+  margin-top: 40px;
+  border-top: 1px solid #334155;
+}
+.footer p {
+  margin: 10px 0;
+  color: #94a3b8;
+}
+.footer-links a {
+  margin: 0 10px;
+  color: #3b82f6;
+  text-decoration: none;
+  font-weight: 500;
+  transition: 0.3s;
+}
+.footer-links a:hover {
+  color: #60a5fa;
+}
+.copyright {
+  font-size: 13px;
+  opacity: 0.7;
+}
